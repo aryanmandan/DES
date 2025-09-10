@@ -46,16 +46,3 @@ The implementation also supports **Cipher Block Chaining (CBC)** with **Cipherte
 
 ---
 
-## Core Functions
-
-- `bitset<64> decrypt(const bitset<64> &cipher_block, const string &key)`  
-  Runs 16 Feistel rounds in reverse.
-
-- `toBitset64()`  
-  Converts 8 bytes → `bitset<64>`.
-
-- `fromBitset64()`  
-  Converts `bitset<64>` → 8 bytes.
-
-- `decrypt_file()`  
-  Handles binary file I/O, block chaining, and CTS.
