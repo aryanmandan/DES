@@ -1,4 +1,4 @@
-# DES Decryption (CBC with CTS Support)
+# DES Image Encryption (CBC with CTS Support)
 
 ## Overview
 This project implements **DES decryption** in C++ using `std::bitset<64>` for block-level operations.  
